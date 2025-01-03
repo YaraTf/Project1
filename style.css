@@ -72,8 +72,11 @@ a:hover {
   opacity: 0.8;
 }
 
+
+/* Добавление картинки почты с помощью CSS */
+
 .btn::before {
-  content: "";
+  content:"";
   width: 21px;
   height: 21px;
 
@@ -148,9 +151,10 @@ a:hover {
   align-items: center;
 }
 
-.welcome_title {
+.welcome__title {
   width: 500px;
-  margin-top: 0;
+  /* margin-top: 0; */
+  margin-bottom: 24px;
 
   font-weight: 700;
   font-size: 54px;
@@ -181,7 +185,7 @@ a:hover {
   margin-top: 140px;
 }
 
-.works_btn {
+.works__btn {
   display: inline-flex;
   align-items: center;
   gap: 20px;
@@ -200,7 +204,7 @@ a:hover {
   opacity: 0.7;
 }
 
-.works_wrapper {
+.works__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
@@ -208,7 +212,8 @@ a:hover {
 }
 
 .work {
-  height: 888px;
+  /* height: 888px; */
+  height: 700px;
   position: relative;
 }
 
@@ -221,14 +226,14 @@ a:hover {
   opacity: 1;
 }
 
-.work_img {
+.work__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.work_name {
+.work__name {
   opacity: 0;
   position: absolute;
   left: 0;
@@ -241,6 +246,7 @@ a:hover {
   align-items: center;
 
   /* InVersion */
+  
   font-weight: 700;
   font-size: 40px;
 
@@ -248,9 +254,9 @@ a:hover {
   transition: opacity 0.3s;
 }
 
-.work:hover .work_name {
-  opacity: 1;
 
+.work:hover .work__name {
+  opacity: 1;
 }
 
 
@@ -503,15 +509,15 @@ margin: 0;
 
 /* Страница HOME */
 
-.header .home_mobile {
+/* .header .home_mobile {
   display: flex;
   align-items: center;
   justify-content: space-between;
   opacity: 0.7;
   backdrop-filter: blur(10px);
-}
+} */
 
-.container__home {
+/* .container__home {
   max-width: 100%;
   height: 640px;
   left: 0px;
@@ -522,4 +528,8 @@ margin: 0;
   display: block;
   width: 100%;
   height: auto;
-}
+} */
+
+/* .burger-menu__icon {
+  backdrop-filter: blur(10px);
+} */

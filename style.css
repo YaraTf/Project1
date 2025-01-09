@@ -212,8 +212,8 @@ a:hover {
 }
 
 .work {
-  /* height: 888px; */
-  height: 700px;
+  height: 888px;
+  /* height: 700px; */
   position: relative;
 }
 
@@ -263,31 +263,30 @@ a:hover {
 /* PROJECTs */
 
 
-
 .projects {
   margin-top: 200px;
 }
 
-.projects_title {
+.projects__title {
   margin-top: 0;
   margin-bottom: 65px;
 }
 
-.projects_wrapper {
+.projects__wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.projects_img {
+.projects__img {
   width: 400px;
   height: 400px;
   object-fit: cover;
   object-position: center;
 }
 
-.projects--vertical .projects_img {
+.projects--vertical .projects__img {
   height: 560px;
 }
 

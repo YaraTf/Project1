@@ -95,7 +95,7 @@ a:hover {
 
 /* SOCIAL */
 
-.social {
+.socials {
   display: flex;
   gap: 40px;
 
@@ -153,7 +153,7 @@ a:hover {
 
 .welcome__title {
   width: 500px;
-  /* margin-top: 0; */
+  margin-top: 0;
   margin-bottom: 24px;
 
   font-weight: 700;
@@ -354,7 +354,7 @@ margin: 0;
     gap: 65px;
   }
 
-.welcome_title {
+.welcome__title {
   width: auto;
 }
 

@@ -19,7 +19,7 @@ body{
 
 }
 
-.small_title {
+.small_title, .gray {
     margin-top: 110px;
     margin-bottom: 0;
     font-size: 16px;

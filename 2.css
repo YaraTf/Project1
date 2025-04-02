@@ -6,17 +6,30 @@ body{
     font-family: "Manrope", sans-serif;
 }
 
+.co-working {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
 
 .solution {
-
+    margin-top: 160px;
 }
 
-.solution .container_co-working {
+.solution .co-working {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+
+/* .solution .container_co-working {
     width: 1250px;
-}
+} */
 
-.solution__text {
-
+.works_desk {
+    float: left;
 }
 
 .small_title, .gray {
@@ -43,6 +56,7 @@ body{
 
 .solution__img {
     margin-top: 200px;
+    margin-right: 200px;
     height: 700px;
     width: 500px;
     object-fit: cover;
